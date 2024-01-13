@@ -1,0 +1,45 @@
+img{
+  width: 300px;
+  height: 300px;
+  border: 4px solid black;
+  border-radius: 168PX;
+  padding: 0px 0px 0px 0px;   /* 1st way of padding t r b l  */
+
+  /* padding: 0px 0px;   2nd way of padding t-b r-l
+
+  padding: 0px;      3rd way of padding t-b-r-l*/
+  margin-top: 117px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 451px;
+
+   filter:blur(10px);
+  /* filter: brightness(2); */
+}
+  .l{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+  }
+
+  #m{
+    margin-top: 0px;
+    margin-bottom: 0px;
+ 
+  }
+
+  #c{
+    margin-top: 0px;
+    margin-bottom: 0px;
+ 
+  }
+
+  img:hover{
+    /* width: 200px;
+    height: 200px; */
+    transition: 1s;
+    /* filter: blur(20px);*/
+    transform: rotate(120deg); 
+    transform: scale(1.2);
+    filter: blur(0px);
+  }
